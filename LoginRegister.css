@@ -1,0 +1,139 @@
+* {
+ margin: 0;
+padding: 0;
+ box-sizing: border-box;
+ font-family: "Poppins", sans-serif;
+}
+
+
+body {
+background: rgb(244, 220, 120);
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+
+.wrapper {
+width: 380px;
+display: flex;
+flex-direction: column;
+display: flex;
+}
+
+
+
+.form-box {
+  background: #fff;
+  padding: 30px 35px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+.form-box h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+
+.input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 0 45px 0 15px;
+  font-size: 14px;
+  outline: none;
+}
+
+.input-box input:focus {
+  border-color: #1e40af;
+}
+
+
+.input-box .icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #555;
+  font-size: 18px;
+}
+
+
+.remember-forgot {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.remember-forgot label {
+  display: flex;
+  gap: 5px;
+}
+
+.remember-forgot a {
+  color: #1e40af;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+
+button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 10px;
+  background: #1e40af;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1c3faa;
+}
+
+
+.register-link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.register-link a {
+  color: #1e40af;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link a:hover {
+text-decoration: underline;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Logo {
+  height: 70px;
+}
+
